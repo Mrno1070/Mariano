@@ -1,0 +1,88 @@
+body{background-color: gray;
+    font-family:sans-serif;
+
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color: red;
+}
+
+
+h2{
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+#botonera{
+    background-color:black;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    list-style: none;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+#content ul{
+    background-color: white;
+    margin: auto;
+}
+
+#slide1{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    float: left;
+}
+
+    
+    
+    
+
+h3{
+    justify-content: center;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin: auto;
+    max-width: 1000px;
+    
+}
+
+#botonera li{
+    background: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;  
+    margin: auto;
+}
+
+#ul{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;  
+    margin: auto;
+    
+    
+}
+
+#servicios{
+    text-align:left;
+    display:table
+}
+    
+
+
+
+
+
+

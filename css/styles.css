@@ -7,82 +7,129 @@ header{
     justify-content: center;
     display: flex;
     background-color: red;
+    flex-wrap: wrap;
 }
 
 
 h2{
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     
 
 }
 
-#botonera{
+
+.menu{
+    background-color:black;
+    justify-content:flex-end;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    max: width 100px;
+    margin: auto;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: wrap;
+
+}
+
+.ul li{
+    list-style: none;
+}
+
+.nav, li, a{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: flex;
+    float: left;
+    position: relative;
+    
+    
+
+
+
+}
+
+.a::before,
+.a::after{
+    top:0;
+    bottom: 0;
+    margin: auto;
+    height: 0.1em;
+    width: 0;
+
+}
+
+.a::before{
+    left: 0;
+
+}
+
+.a::after{
+    background-color: red;
+    right: 0;
+
+}
+
+
+.nav li :hover a{
+    background-color: gray;
+}
+
+h4{
     background-color:black;
     justify-content: center;
     display: flex;
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    list-style: none;
-    max-width: 1000px;
+    animation: move 10s ease-in-out infinite;
     margin: auto;
-    
+    flex-wrap: wrap;
+
 }
 
-#content ul{
-    background-color: white;
-    margin: auto;
+@keyframes move {
+    0%{
+        transform:translate(-30%, 0);
+    }
+
+    50%{
+        text-shadow: 0 25px 58px rgba(red, green, blue, alpha);
+    }
+    100%{
+        transform: translate(30%);
+    }
 }
 
-#slide1{
-    justify-content: center;
+nav p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    margin: auto;
-    float: left;
+
 }
 
-    
-    
-    
-
-h3{
+footer p{
     justify-content: center;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-}
-
-a{
-    text-decoration: none;
-    margin: auto;
-    max-width: 1000px;
-    
-}
-
-#botonera li{
-    background: white;
+    flex-wrap: wrap;
     text-align: center;
-    display: inline-block;
-    padding: 15px;  
-    margin: auto;
+
 }
 
-#ul{
+img{
+    width: 50%;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
     text-align: center;
-    display: inline-block;
-    padding: 15px;  
-    margin: auto;
-    
-    
 }
-
-#servicios{
-    text-align:left;
-    display:table
-}
-    
-
-
-
-
 
 

@@ -1,135 +1,277 @@
 body{background-color: gray;
-    font-family:sans-serif;
+  font-family:sans-serif;
+  position: relative;
+ min-height: 100vh;
+
 
 }
 
 header{
-    justify-content: center;
-    display: flex;
-    background-color: red;
-    flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
 }
 
 
 h2{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  
 
 }
 
 
 .menu{
-    background-color:black;
-    justify-content:flex-end;
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-    max: width 100px;
-    margin: auto;
-    padding: 0%;
-    margin: 0%;
-    flex-wrap: wrap;
+  background-color:black;
+  justify-content:flex-end;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  margin: auto;
+  padding: 0%;
+  margin: 0%;
+  flex-wrap: wrap;
 
 }
 
 .ul li{
-    list-style: none;
+  list-style: none;
 }
 
 .nav, li, a{
-    background-color: white;
-    color: red;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: flex;
-    float: left;
-    position: relative;
-    
-    
+  background-color: white;
+  color: red;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: flex;
+  float: left;
+  position: relative;
+  flex-wrap: wrap;
+  
+  
 
 
 
 }
-
-.a::before,
-.a::after{
-    top:0;
-    bottom: 0;
-    margin: auto;
-    height: 0.1em;
-    width: 0;
-
-}
-
-.a::before{
-    left: 0;
-
-}
-
-.a::after{
-    background-color: red;
-    right: 0;
-
-}
-
 
 .nav li :hover a{
-    background-color: gray;
+  background-color: gray;
 }
 
-h4{
-    background-color:black;
-    justify-content: center;
-    display: flex;
-    animation: move 10s ease-in-out infinite;
-    margin: auto;
-    flex-wrap: wrap;
+h3{ 
+  justify-content: center;
+  background-color:white;
+  display: flex;
+}
+
+div.servicios{
+  background-color:black;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
 
 }
 
-@keyframes move {
-    0%{
-        transform:translate(-30%, 0);
-    }
-
-    50%{
-        text-shadow: 0 25px 58px rgba(red, green, blue, alpha);
-    }
-    100%{
-        transform: translate(30%);
-    }
+div p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  text-align: left;
+  
 }
 
 nav p{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
 
 }
 
-footer p{
-    justify-content: center;
-    background-color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-
+footer {
+  justify-content: center;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position:relative;
+  width:100%;
 }
+
 
 img{
-    width: 50%;
-    flex-wrap: wrap;
-    text-align:center;
-}
-
-.row{
-    display: flex;
-    padding: 5px;
-    flex-wrap: wrap;
-    text-align: center;
+  width: 50%;
+  flex-wrap: wrap;
+  text-align:center;
 }
 
 
+.horarios{
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+p a{
+  justify-content: center;
+  display:flex;
+  
+}
+
+.iframe{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative;
+  
+}
+
+div.article p{
+  background-color: white;
+  color:black;
+  font-size: larger;
+  justify-content: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  margin-bottom:auto;
+  justify-content:center
+  
+}
+
+div.article i{
+  justify-content:left;
+ display: flex;
+  flex-wrap: wrap;
+  background-color:white;
+  font-size: large;
+  
+  
+}
+
+.imagenlocal{
+  width: 80%;
+  height:auto;
+  flex-wrap: wrap;
+
+}
+
+
+
+div.galeria{
+  background-color:white;
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  float:left;
+  width: 350px;
+  flex-wrap: wrap;
+  
+}
+
+div.galeria img{
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+div.galeria:hover{
+  border: 1px solid black;
+  transform:scale()
+}
+
+div.piedefoto {
+
+  justify-content: center;
+  text-align: center;
+}
+
+div.piedefoto p{
+  color:black;
+  font-size: larger;
+  text-align: center;
+
+}
+
+
+div.marca{
+justify-content: center;
+}
+
+div.preguntas{
+  background-color: black;
+  display:contents;
+
+  
+}
+
+div.preguntas ul{
+  background-color: white;
+ display:inline-flex;
+ position: relative;
+  
+}
+
+div.preguntas li{
+  background-color: black;
+  color: white;
+  position: relative;
+ margin: auto;
+  
+
+}
+
+div.preguntas dd{
+  display: inline-block;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content:center;
+  position:relative;
+  margin: 10px;
+}
+
+div.redirect {
+  position: relative;
+  display: inline-flex;
+  justify-content:left;
+}
+
+div.redirect h4{
+  background-color:white;
+  margin-bottom: auto;
+ 
+}
+
+div.redirect a {
+  background-color: gray;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: auto;
+  text-decoration:underline;
+  
+}
+
+div.horarios{
+  justify-content: center;
+}
+
+div.medios{
+  background-color: black;
+  display: inline-flex;
+}
+
+div.medios p{
+  display: inline-flex;
+  margin: 10px;
+}
+
+div.medios a{
+  color: red;
+  text-decoration: underline;
+  background-color: black;
+ 
+}

@@ -6,32 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreEntrega1-Iervasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css\styles.css">
 </head>
 
 <body>
     <header>
         <h1>IER-CROM</h1>
+        
     </header>
+    
     <h2>Empresa de acabados metalicos</h2>
 
     <div class="menu">
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">Inicio</a>
+                    <a href="index.html" class="btn btn-danger">Inicio</a>
                 </li>
                 <li>
-                    <a href="pages\servicios.html">Servicios</a>
+                    <a href="pages\servicios.html"class="btn btn-danger">Servicios</a>
                 </li>
                 <li>
-                    <a href="pages\acercadenosotros.html">Acerda De</a>
+                    <a href="pages\acercadenosotros.html"class="btn btn-danger">Acerca De</a>
                 </li>
                 <li>
-                    <a href="pages\preguntasfrecuentes.html">Preguntas</a>
+                    <a href="pages\preguntasfrecuentes.html"class="btn btn-danger">Preguntas</a>
                 </li>
                 <li>
-                    <a href="pages\contacto.html">Contacto</a>
+                    <a href="pages\contacto.html"class="btn btn-danger">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -39,46 +42,42 @@
     </div>
     <h3>Somos IER-CROM, una empresa familiar con mas de 70 años en el rubro de la galvanoplastia</h3>
     
-    <div class="galeria">
-        <div class="foto">
-            <img src="img/piezacromada1.jpg" alt="base de iluminacion cromada">
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="piedefoto">
-            <p>Base de iluminacion cromada</p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/griferiacromada.jpg" class="d-block w-100" alt="griferia">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/rulemanescromados.jpg" class="d-block w-100" alt="rulemanes">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tornilloscromados.jpg" class="d-block w-100" alt="tornillos">
+          </div>
         </div>
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <div class="info">
+        <h4>
+            La galvanoplastia es la aplicación tecnológica de la deposición de metales mediante electricidad, también llamada electrodeposición. El proceso se basa en el traslado de iones metálicos desde un ánodo a un cátodo, donde se depositan, en un medio líquido acuoso, compuesto principalmente por sales metálicas y ligeramente acidulado (electrolito). Etimológicamente, proviene de galvano, proceso eléctrico, en honra a Galvani, y -plastia, del epíteto griego πλαστός (plastós): ‘figura’, ‘tallado’, es decir, “dar una figura mediante la electricidad”.
+            De forma genérica bajo el nombre de galvanoplastia se agrupa diversos procesos en los que se emplea el principio físico anterior, la electrodeposición, de diferentes formas. Dependiendo de autores y profundización de estudio se considera un único proceso o se desglosa en varios, incluso en subprocesos. Algunas veces, procesos muy semejantes recibe un nombre distinto por alguna diferencia tecnológica. Generalmente las diferencias se producen en la utilización del sustrato.
+        </h4>
+        
     </div>
-    <div class="galeria">
-        <div class="foto">
-            <img src="img/griferiacromada.jpg" alt="griferia cromada">
-
-        </div>
-        <div class="piedefoto">
-            <p>Griferia monocomando cromada</p>
-        </div>
-
-    </div>
-    <div class="galeria">
-        <div class="foto">
-            <img src="img/tornilloscromados.jpg" alt="tornillos cromados">
-
-        </div>
-        <div class="piedefoto">
-            <p>Tornillos o Bulones cromados</p>
-        </div>
-
-    </div>
-    <div class="galeria">
-        <div class="foto">
-            <img src="img/manivelaniquelmate.jpg" alt="manivela niquelada y matizada">
-
-        </div>
-        <div class="piedefoto">
-            <p>Manivela niquelada y matizada, comunmente llamada "platil"</p>
-        </div>
-
-    </div>
+       
+   
     
     <div class="marca">
         <footer>
@@ -93,7 +92,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 

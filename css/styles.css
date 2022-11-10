@@ -1,0 +1,326 @@
+/* line 1, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+body {
+  background-color: #383838;
+  font-family: sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* line 9, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+header {
+  justify-content: center;
+  display: flex;
+  color: #E91111;
+  flex-wrap: wrap;
+}
+
+h2{
+  color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration-line: overline;
+  
+}
+
+
+
+/* line 20, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.menu {
+  background-color: #181616;
+  justify-content: flex-end;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  margin: auto;
+  padding: 0%;
+  margin: 0%;
+  flex-wrap: wrap;
+}
+
+/* line 32, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.ul li {
+  list-style: none;
+}
+
+/* line 36, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.nav, li, a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 17px;
+  display: flex;
+  float: left;
+  position: relative;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+/* line 47, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.nav, li, a::before {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 53, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+h3 {
+  justify-content: center;
+ color: #ffffff;
+  display: flex;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+/* line 60, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.servicios {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+
+.slide{
+  width: 20cm;
+  margin: auto;
+  flex-wrap: wrap;
+  
+}
+
+.slide img {
+      height: 40vh;
+      flex-wrap: wrap;
+      
+      
+}
+
+.slide h5{
+  background-color: #383838;
+  margin: auto;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  
+}
+
+.slide p{
+  background-color: #383838;
+  justify-content:baseline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#ffffff;
+}
+/* line 68, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div p {
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  text-align: left;
+  text-transform: uppercase;
+  display: flex;
+  
+  
+}
+
+/* line 76, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+nav p {
+  color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+/* line 82, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+footer {
+  justify-content: center;
+  background-color: #E91111;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* line 94, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+img {
+  width: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* line 100, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.horarios {
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+/* line 106, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+p a {
+  justify-content: center;
+  display: flex;
+}
+
+/* line 111, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.iframe {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  position: relative;
+  
+}
+
+/* line 121, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.article p {
+  color:#ffffff;
+  font-size: larger;
+  text-decoration:underline;
+  justify-content: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+/* line 133, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.article i {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: large;
+  padding-top: 30px;
+  
+}
+
+/* line 142, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+.imagenlocal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* line 149, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.galeria {
+  background-color: white;
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  float: left;
+  width: 350px;
+  flex-wrap: wrap;
+  
+}
+
+/* line 157, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.galeria img {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/* line 180, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.marca {
+  justify-content: center;
+}
+
+/* line 184, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.preguntas {
+  background-color: black;
+  display: contents;
+}
+
+/* line 188, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.preguntas ul {
+  
+  display: inline-flex;
+  position: relative;
+}
+
+/* line 194, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.preguntas li {
+  background-color: black;
+  color: white;
+  position: relative;
+  margin: auto;
+}
+
+/* line 201, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.preguntas dd {
+  display: inline-block;
+  color:#ffffff;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  position: relative;
+  margin: 10px;
+}
+
+/* line 211, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.redirect {
+  position: relative;
+  display: inline-flex;
+  justify-content: left;
+}
+
+/* line 216, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.redirect h4 {
+  color: #E91111;
+  margin-bottom: auto;
+}
+
+/* line 221, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.redirect a {
+  
+  background-color: #E91111;
+  margin-left: 20px;
+  
+}
+
+/* line 230, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.horarios {
+  justify-content: center;
+}
+
+/* line 234, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.medios {
+  background-color: black;
+  display: inline-flex;
+}
+
+/* line 238, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.medios p {
+  display: inline-flex;
+  margin: 10px;
+}
+
+/* line 243, ../OneDrive/Escritorio/Desarrollo Web/Prueba VS/scss/styles.scss */
+div.medios a {
+  color: red;
+  text-decoration: underline;
+  background-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.info {
+  background-color: #181616;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-wrap: wrap;
+  padding: auto;
+  justify-content: center;
+  margin: 15px;
+}
